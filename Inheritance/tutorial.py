@@ -11,6 +11,6 @@ class Child(Parent):
         print('Snitzleberg')
 
 
-vasu = Child()
-vasu.print_first_name()
-vasu.print_last_name()
+bucky = Child()
+bucky.print_first_name()
+bucky.print_last_name()
