@@ -11,4 +11,13 @@ class Enemy:
         else:
             print(str(self.life) + " life left")
 
-    
+
+enemy1 = Enemy()
+enemy2 = Enemy()
+
+enemy1.attack()
+enemy1.checkLife()
+
+print("=================")
+
+enemy2.checkLife()
