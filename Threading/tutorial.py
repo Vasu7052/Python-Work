@@ -4,7 +4,7 @@ import threading
 
 class VasuMessenger(threading.Thread):
     def run(self):
-        for _ in range(3):     # _ means that something but nothing
+        for _ in range(100):     # _ means that we dont care about the variable
             print(threading.currentThread().getName())
 
 x = VasuMessenger(name='Send out messages')
