@@ -71,4 +71,84 @@ VasuGupta
 'VasuGupta'
 >>> str*5
 'VasuGuptaVasuGuptaVasuGuptaVasuGuptaVasuGupta'
+>>> str = "Vasu Gupta"
+>>> 
+>>> 
+>>> 
+
+
+>>> 
+
+>>> 
+
+>>> 
+
+>>> 
+
+>>> 
+str[0 , 2]
+Traceback (most recent call last):
+  File "<pyshell#41>", line 2, in <module>
+    str[0 , 2]
+TypeError: string indices must be integers
+>>> str[0]
+'V'
+>>> str[-1]
+'a'
+>>> str[0:4]
+'Vasu'
+>>> str[0:5]
+'Vasu '
+>>> str[:4]
+'Vasu'
+>>> str[:]
+'Vasu Gupta'
+>>> len(str)
+10
+>>> players = [23,43,21,14,56,87]
+>>> players[0]
+23
+>>> players[-1]
+87
+>>> players[0] = 54
+>>> players[0]
+54
+>>> players[0:2]
+[54, 43]
+>>> players += [66 , 99]
+>>> players
+[54, 43, 21, 14, 56, 87, 66, 99]
+>>> players.appned(120)
+Traceback (most recent call last):
+  File "<pyshell#57>", line 1, in <module>
+    players.appned(120)
+AttributeError: 'list' object has no attribute 'appned'
+>>> players.append(120)
+>>> players
+[54, 43, 21, 14, 56, 87, 66, 99, 120]
+>>> players.append(140,160)
+Traceback (most recent call last):
+  File "<pyshell#60>", line 1, in <module>
+    players.append(140,160)
+TypeError: append() takes exactly one argument (2 given)
+>>> players.append([140,160])
+>>> players
+[54, 43, 21, 14, 56, 87, 66, 99, 120, [140, 160]]
+>>> 
+players.appned("Hii")
+Traceback (most recent call last):
+  File "<pyshell#63>", line 2, in <module>
+    players.appned("Hii")
+AttributeError: 'list' object has no attribute 'appned'
+>>> players.append("Hii")
+>>> players
+[54, 43, 21, 14, 56, 87, 66, 99, 120, [140, 160], 'Hii']
+>>> players[:2] = []
+>>> players
+[21, 14, 56, 87, 66, 99, 120, [140, 160], 'Hii']
+>>> hey
+Traceback (most recent call last):
+  File "<pyshell#68>", line 1, in <module>
+    hey
+NameError: name 'hey' is not defined
 >>> 
