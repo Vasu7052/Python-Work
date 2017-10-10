@@ -3,3 +3,4 @@
 
 # We pass a number x as an argument
 answer = lambda x: x*5
+print(answer(10))
