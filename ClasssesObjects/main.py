@@ -7,3 +7,8 @@ class Enemy:
 
     def checkLife(self):
         if self.life <= 0:
+            print("OUT")
+        else:
+            print(str(self.life) + " life left")
+
+    
