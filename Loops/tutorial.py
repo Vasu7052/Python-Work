@@ -26,3 +26,9 @@ for x in range(5,10,2) :
     print(x)
 
 print("========================")
+
+num = 5
+
+while num > 0 :
+    print(num)
+    num -=1
