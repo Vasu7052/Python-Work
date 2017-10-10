@@ -17,8 +17,8 @@
       <file leaf-file-name="tutorial.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tutorial.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="36" column="254" lean-forward="false" selection-start-line="36" selection-start-column="254" selection-end-line="36" selection-end-column="254" />
+            <state relative-caret-position="68">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -50,6 +50,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="903" />
+    <option name="y" value="5" />
     <option name="width" value="465" />
     <option name="height" value="735" />
   </component>
@@ -128,7 +129,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="903" y="0" width="465" height="735" extended-state="0" />
+    <frame x="903" y="5" width="465" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21416235" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -165,8 +166,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tutorial.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="36" column="254" lean-forward="false" selection-start-line="36" selection-start-column="254" selection-end-line="36" selection-end-column="254" />
+        <state relative-caret-position="68">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

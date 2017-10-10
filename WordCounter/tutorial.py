@@ -34,7 +34,10 @@ def create_dictionary(clean_word_list):
             word_count[word] += 1
         else:
             word_count[word] = 1
-    for key, value in sorted(word_count.items(), key=operator.itemgetter(1)):  # 2nd key is not talking about the dictionary key , operator works with built in data types , itemgetter goes to the dictionary and get each item , 1 means value & 0 means key
+
+    # 2nd key is not talking about the dictionary key , operator works with built in data types ,
+    # itemgetter goes to the dictionary and get each item , 1 means value & 0 means key
+    for key, value in sorted(word_count.items(), key=operator.itemgetter(1)):
         print(key, "-" , value)
 
 
