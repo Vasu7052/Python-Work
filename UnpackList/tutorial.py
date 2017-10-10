@@ -1,3 +1,9 @@
+demoList = ["December" , "Gloves" , 8.51]
+date , name , price = demoList
+print(date)
+
+print("=================================")
+
 def drop_first_last(grades):
     first, *middle, last = grades
     avg = sum(middle) / len(middle)
